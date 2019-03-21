@@ -8,6 +8,8 @@ const mattyEngine = {
 		queue: [], // text for the dialog engine
 		char: [], // secondary characters
 		matty: undefined, // matty
+		dialogListener: document.addEventListener('keydown', mattyEngine.dialogAdvance),
+
 	},
 	start: (el) => { // create elements and style them
 		let div = document.createElement('div')
@@ -71,5 +73,3 @@ const mattyEngine = {
 
 document.addEventListener('keydown', e => { mattyEngine.recent = e.key })
 document.addEventListener('keyup', () => { mattyEngine.recent = undefined })
-
-const dialogListener = document.addEventListener('keydown', mattyEngine.dialogAdvance)
