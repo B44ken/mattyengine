@@ -1,5 +1,8 @@
-# matty engine
 ```js
+// // // // // // // // // //
+// MATTY ENGINE DOCS (1.0) //
+// // // // // // // // // //
+
 mattyEngine.start(q) 
 // Starts a new instance of Matty Engine. Parameter q is a querySelector 
 // of a document on the page, of which the game will be appended to.
