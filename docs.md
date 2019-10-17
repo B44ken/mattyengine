@@ -35,5 +35,6 @@ CHARACTER.move(l)
 // Move the character. Parameter l should be 0-100, % to the right.
 
 CHARACTER.click(c)
-// Change the callback function. Should be a function that triggers on click.
+// Change the function that fires when the character is clicked.
+// Parameter c is said function.
 ```
